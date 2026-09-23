@@ -800,9 +800,9 @@ figcaption {
   gap: 20px;
   margin-top: 20px;
 }
-.evidence-grid .evidence-figure { margin: 0; }
+.evidence-grid .evidence-figure { margin: 0; min-width: 0; }
 
-@media (max-width: 860px) {
+@media (max-width: 560px) {
   .evidence-grid { grid-template-columns: 1fr; }
 }
 
